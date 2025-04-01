@@ -1,0 +1,48 @@
+.todo-container {
+  width: 736px;
+  height: 54px;
+  margin: 90px auto;
+  background-color: none;
+  & .header-todo {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    justify-content: space-between;
+    & p {
+      color: var(--blue);
+      font-size: 14px;
+      font-weight: bold;
+      & span {
+        background-color: var(--gray-400);
+        color: var(--gray-200);
+        border-radius: 40%;
+        padding: 2px 8px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+  & hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin-top: 20px;
+  }
+  & .no-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    & .material-symbols {
+        font-size: 80px;
+    }
+    & p {
+        font-size: 16px;
+        font-weight: bold;
+        color: var(--gray-300);
+        & + p {
+            font-weight: normal;
+        }
+    }
+  }
+}

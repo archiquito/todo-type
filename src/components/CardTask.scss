@@ -1,0 +1,31 @@
+.card-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  margin-top: 20px;
+  & .task {
+    font-size: 16px;
+    color: var(--gray-200);
+    & input {
+      margin-right: 15px;
+    }
+    & .line-through {
+      text-decoration-line: line-through;
+    }
+  }
+  & button {
+    border: none;
+    background-color: var(--gray-500);
+    &:hover{
+      border: none;
+      color: var(--gray-200);
+    }
+    & 
+    & .material-symbols {
+      cursor: pointer;
+    }
+  }
+}
